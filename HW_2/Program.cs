@@ -47,21 +47,21 @@
 // 7 -> да
 // 1 -> нет
 
-// System.Console.WriteLine("Введите цифру деня недели: ");
-// int i = Convert.ToInt32(Console.ReadLine());
+System.Console.WriteLine("Введите цифру деня недели: ");
+int i = Convert.ToInt32(Console.ReadLine());
 
-// if (i > 0 && i < 8)
-// {
-//     if (i > 5)
-//     {
-//         System.Console.WriteLine("Сегодня выходной");
-//     }
-//     else
-//     {
-//         System.Console.WriteLine("Сегодня рабочий день");
-//     }
-// }
-// else
-// {
-//     System.Console.WriteLine("Это не день недели");
-// }
+if (i > 0 && i < 8)
+{
+    if (i > 5)
+    {
+        System.Console.WriteLine("Сегодня выходной");
+    }
+    else
+    {
+        System.Console.WriteLine("Сегодня рабочий день");
+    }
+}
+else
+{
+    System.Console.WriteLine("Это не день недели");
+}
