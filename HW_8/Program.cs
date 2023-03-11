@@ -390,7 +390,7 @@ while (temp <= sqareMatrix.GetLength(0) * sqareMatrix.GetLength(1))
 
 WriteArray(sqareMatrix);
 
-void WriteArray (int[,] array)
+void WriteArray(int[,] array)
 {
   for (int i = 0; i < array.GetLength(0); i++)
   {
